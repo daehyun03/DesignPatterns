@@ -1,2 +1,5 @@
-package hf.dp.Strategy;public interface QuackBehavior {
+package hf.dp.Strategy;
+
+public interface QuackBehavior {
+    public void quack();
 }

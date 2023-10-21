@@ -1,5 +1,3 @@
-package designpatterns.strategy; // 숙제 package와 동일하게
-
 import java.time.LocalDate;
 import java.time.LocalTime;
 import java.net.InetAddress;
