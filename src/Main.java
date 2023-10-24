@@ -1,4 +1,5 @@
 import hf.dp.Decorator.StarbuzzCoffee;
+import hf.dp.FactoryMethod.PizzaTestDrive;
 import hf.dp.Observer.WeatherStation;
 import hf.dp.Strategy.MiniDuckSimulator;
 
@@ -8,5 +9,6 @@ public class Main {
         //MiniDuckSimulator.run();
         //WeatherStation.run();
         StarbuzzCoffee.run();
+        //PizzaTestDrive.run();
     }
 }
