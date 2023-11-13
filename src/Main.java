@@ -3,6 +3,12 @@ import hf.dp.Decorator.StarbuzzCoffee;
 import hf.dp.FactoryMethod.PizzaTestDrive;
 import hf.dp.Observer.WeatherStation;
 import hf.dp.Strategy.MiniDuckSimulator;
+//import hf.dp.AbstractFactory.AbstractPizzaTestDrive;
+//import hf.dp.Decorator.StarbuzzCoffee;
+//import hf.dp.FactoryMethod.PizzaTestDrive;
+import hf.dp.Singleton.ChocolateController;
+//import hf.dp.Observer.WeatherStation;
+//import hf.dp.Strategy.MiniDuckSimulator;
 
 
 public class Main {
@@ -13,5 +19,7 @@ public class Main {
         //StarbuzzCoffee.run();
         //PizzaTestDrive.run();
         TestDrive.run();
+        //AbstractPizzaTestDrive.run();
+        ChocolateController.run();
     }
 }

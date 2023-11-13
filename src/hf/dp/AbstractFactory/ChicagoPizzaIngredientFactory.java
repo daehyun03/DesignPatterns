@@ -1,31 +1,31 @@
 package hf.dp.AbstractFactory;
 
 import hf.dp.AbstractFactory.Ingredients.Cheese.Cheese;
-import hf.dp.AbstractFactory.Ingredients.Cheese.ReggianoCheese;
+import hf.dp.AbstractFactory.Ingredients.Cheese.MozzarellaCheese;
 import hf.dp.AbstractFactory.Ingredients.Clams.Clams;
-import hf.dp.AbstractFactory.Ingredients.Clams.FreshClams;
+import hf.dp.AbstractFactory.Ingredients.Clams.FrozenClams;
 import hf.dp.AbstractFactory.Ingredients.Dough.Dough;
-import hf.dp.AbstractFactory.Ingredients.Dough.ThinCrustDough;
+import hf.dp.AbstractFactory.Ingredients.Dough.ThickCrustDough;
 import hf.dp.AbstractFactory.Ingredients.Pepperoni.Pepperoni;
 import hf.dp.AbstractFactory.Ingredients.Pepperoni.SlicedPepperoni;
-import hf.dp.AbstractFactory.Ingredients.Sauce.MarinaraSauce;
+import hf.dp.AbstractFactory.Ingredients.Sauce.PlumTomatoSauce;
 import hf.dp.AbstractFactory.Ingredients.Sauce.Sauce;
 import hf.dp.AbstractFactory.Ingredients.Veggies.*;
 
-public class NYPizzaIngredientFactory implements PizzaIngredientFactory {
+public class ChicagoPizzaIngredientFactory implements PizzaIngredientFactory {
     @Override
     public Dough createDough() {
-        return new ThinCrustDough();
+        return new ThickCrustDough();
     }
 
     @Override
     public Sauce createSauce() {
-        return new MarinaraSauce();
+        return new PlumTomatoSauce();
     }
 
     @Override
     public Cheese createCheese() {
-        return new ReggianoCheese();
+        return new MozzarellaCheese();
     }
 
     @Override
@@ -42,7 +42,6 @@ public class NYPizzaIngredientFactory implements PizzaIngredientFactory {
 
     @Override
     public Clams createClam() {
-        return new FreshClams();
+        return new FrozenClams();
     }
-
 }
