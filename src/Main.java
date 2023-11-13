@@ -1,15 +1,10 @@
-import hf.dp.Command.TestDrive;
-import hf.dp.Decorator.StarbuzzCoffee;
-import hf.dp.FactoryMethod.PizzaTestDrive;
-import hf.dp.Observer.WeatherStation;
-import hf.dp.Strategy.MiniDuckSimulator;
 //import hf.dp.AbstractFactory.AbstractPizzaTestDrive;
+import hf.dp.Command.TestDrive;
 //import hf.dp.Decorator.StarbuzzCoffee;
 //import hf.dp.FactoryMethod.PizzaTestDrive;
-import hf.dp.Singleton.ChocolateController;
 //import hf.dp.Observer.WeatherStation;
+import hf.dp.Singleton.ChocolateController;
 //import hf.dp.Strategy.MiniDuckSimulator;
-
 
 public class Main {
     public static void main(String[] args) {
@@ -18,8 +13,9 @@ public class Main {
         //WeatherStation.run();
         //StarbuzzCoffee.run();
         //PizzaTestDrive.run();
-        TestDrive.run();
         //AbstractPizzaTestDrive.run();
-        ChocolateController.run();
+        //ChocolateController.run();
+        TestDrive.run();
+
     }
 }
