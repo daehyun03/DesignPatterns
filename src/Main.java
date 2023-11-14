@@ -1,4 +1,5 @@
 //import hf.dp.AbstractFactory.AbstractPizzaTestDrive;
+//import hf.dp.Adaptor.DuckTestDrive;
 import hf.dp.Command.TestDrive;
 //import hf.dp.Decorator.StarbuzzCoffee;
 //import hf.dp.FactoryMethod.PizzaTestDrive;
@@ -15,7 +16,8 @@ public class Main {
         //PizzaTestDrive.run();
         //AbstractPizzaTestDrive.run();
         //ChocolateController.run();
-        TestDrive.run();
+        //TestDrive.run();
+        //DuckTestDrive.run();
 
     }
 }
