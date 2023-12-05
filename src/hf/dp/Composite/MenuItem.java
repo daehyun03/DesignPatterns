@@ -1,5 +1,7 @@
 package hf.dp.Composite;
 
+import java.util.Iterator;
+
 public class MenuItem extends MenuComponent {
     String name;
     String description;
@@ -40,5 +42,8 @@ public class MenuItem extends MenuComponent {
         }
         System.out.println(", " + getPrice());
         System.out.println("    -- " + getDescription());
+    }
+    public Iterator crateIterator() {
+        return new NullIterator();
     }
 }

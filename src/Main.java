@@ -9,8 +9,6 @@ import hf.dp.Adaptor.DuckTestDrive;
 import hf.dp.Facade.HomeTheaterTestDrive;
 import hf.dp.TemplateMethod.BeverageTestDrive;*/
 
-import hf.dp.Iterator.MenuTestDrive;
-
 public class Main {
     public static void main(String[] args) {
         MyHWInfo.printInfo();
@@ -46,6 +44,9 @@ public class Main {
         BeverageTestDrive.run();*/
 
         //Iterator
-        MenuTestDrive.run();
+        //hf.dp.Iterator.MenuTestDrive.run();
+
+        //Composite
+        hf.dp.Composite.MenuTestDrive.run();
     }
 }
